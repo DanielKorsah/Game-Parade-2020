@@ -24,8 +24,10 @@ public class CharacterSpriteSelect : MonoBehaviour
 
         if (characterSprites.Count > 0)
         {
-            index = 0;
-            imageComponent.sprite = characterSprites[index];
+            index = -1;
+            CharacterSelectForward.Invoke();
+            CharacterInfo.PlayerSprite = characterSprites[index];
+            imageComponent.sprite = CharacterInfo.PlayerSprite;
         }
 
     }
@@ -38,7 +40,8 @@ public class CharacterSpriteSelect : MonoBehaviour
         if (index > characterSprites.Count - 1)
             index = 0;
 
-        imageComponent.sprite = characterSprites[index];
+        CharacterInfo.PlayerSprite = characterSprites[index];
+        imageComponent.sprite = CharacterInfo.PlayerSprite;
     }
 
     public void ScrollBackwards()
@@ -47,6 +50,7 @@ public class CharacterSpriteSelect : MonoBehaviour
         if (index < 0)
             index = characterSprites.Count - 1;
 
-        imageComponent.sprite = characterSprites[index];
+        CharacterInfo.PlayerSprite = characterSprites[index];
+        imageComponent.sprite = CharacterInfo.PlayerSprite;
     }
 }
