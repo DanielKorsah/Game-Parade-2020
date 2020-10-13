@@ -75,19 +75,22 @@ public class StatPreview : MonoBehaviour
         {
             //visual indicators
             case 0:
-                statText[0].text = "Body: " + (CharacterInfo.Stats[0] + BodyModifierTotal + 1);
+                BodyModifierTotal += 1;
+                statText[0].text = "Body: " + (CharacterInfo.Stats[0] + BodyModifierTotal);
                 statText[1].text = "Mind: " + (CharacterInfo.Stats[1] + MindModifierTotal);
                 statText[2].text = "Charm: " + (CharacterInfo.Stats[2] + CharmModifierTotal);
                 break;
             case 1:
+                MindModifierTotal += 1;
                 statText[0].text = "Body: " + (CharacterInfo.Stats[0] + BodyModifierTotal);
-                statText[1].text = "Mind: " + (CharacterInfo.Stats[1] + MindModifierTotal + 1);
+                statText[1].text = "Mind: " + (CharacterInfo.Stats[1] + MindModifierTotal);
                 statText[2].text = "Charm: " + (CharacterInfo.Stats[2] + CharmModifierTotal);
                 break;
             case 2:
+                CharmModifierTotal += 1;
                 statText[0].text = "Body: " + (CharacterInfo.Stats[0] + BodyModifierTotal);
                 statText[1].text = "Mind: " + (CharacterInfo.Stats[1] + MindModifierTotal);
-                statText[2].text = "Charm: " + (CharacterInfo.Stats[2] + CharmModifierTotal + 1);
+                statText[2].text = "Charm: " + (CharacterInfo.Stats[2] + CharmModifierTotal);
                 break;
             default:
                 statText[0].text = "Body: " + (CharacterInfo.Stats[0] + BodyModifierTotal);
