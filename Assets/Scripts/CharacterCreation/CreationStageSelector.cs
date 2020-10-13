@@ -100,7 +100,7 @@ public class CreationStageSelector : MonoBehaviour
         }
 
         //if progresing past 3rd stage of character creation, set character stats
-        if (progress == 3)
+        if (progress == 4)
         {
             CharacterInfo.Stats = new List<int>() { StatPreview.BodyModifierTotal + 1, StatPreview.MindModifierTotal + 1, StatPreview.CharmModifierTotal + 1 }.ToArray();
             StatblockPrinter.UpdateStatsUI.Invoke();
