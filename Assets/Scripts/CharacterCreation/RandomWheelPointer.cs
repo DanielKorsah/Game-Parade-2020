@@ -25,6 +25,7 @@ public class RandomWheelPointer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Answer.text = "";
         if (!stopped)
         {
             countdown -= Time.deltaTime;
