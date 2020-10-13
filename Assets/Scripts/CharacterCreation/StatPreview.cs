@@ -49,7 +49,7 @@ public class StatPreview : MonoBehaviour
     {
         modifiedStat = -1;
         modifications.RemoveAt(modifications.Count - 1);
-
+        RefreshStatBlocks.Invoke();
     }
 
     private void Refresh()
@@ -90,7 +90,9 @@ public class StatPreview : MonoBehaviour
                 statText[2].text = "Charm: " + (CharacterInfo.Stats[2] + CharmModifierTotal + 1);
                 break;
             default:
-                Debug.Log("Wrong index");
+                statText[0].text = "Body: " + (CharacterInfo.Stats[0] + BodyModifierTotal);
+                statText[1].text = "Mind: " + (CharacterInfo.Stats[1] + MindModifierTotal);
+                statText[2].text = "Charm: " + (CharacterInfo.Stats[2] + CharmModifierTotal);
                 break;
         }
     }
