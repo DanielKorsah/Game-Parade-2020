@@ -8,8 +8,8 @@ using UnityEngine.SceneManagement;
 public class CreationStageSelector : MonoBehaviour
 {
 
-    public static bool[] completedStages = { true, false, false, false };
-    //0 - sprite select, 1 - childhood, 2 - adulthood, 3 - later adulthood,
+    public static bool[] completedStages = { true, false, false, false, false };
+    //0 - sprite select, 1 - childhood, 2 - adulthood, 3 - later adulthood, 4 random wheel
     public static int progress;
 
     [SerializeField] private List<GameObject> stagePanels = new List<GameObject>();
@@ -29,6 +29,10 @@ public class CreationStageSelector : MonoBehaviour
 
         if (completedStages[progress])
             progress++;
+
+        if (progress == 4)
+            GameObject.FindObjectOfType<RandomWheelPointer>().Init();
+
         Resolve();
     }
 
@@ -61,16 +65,26 @@ public class CreationStageSelector : MonoBehaviour
 
 
         //Don't show back button on first stage
-        //if (progress == 0)
-        //backButton.gameObject.SetActive(false);
-        //else
-        //backButton.gameObject.SetActive(true);
-
-        //if last page show finish instead of Next
-        if (progress == 3)
+        if (progress == 0)
+        {
+            backButton.gameObject.SetActive(false);
+        }
+        //if last page with options show finish instead of Next,
+        else if (progress == 3)
+        {
             nextText.text = "Finish";
+        }
+        // if random wheel page show Play, also lock back button out so decisions are finalised
+        else if (progress == 4)
+        {
+            nextText.text = "Play";
+            backButton.gameObject.SetActive(false);
+        }
         else
+        {
             nextText.text = "Next";
+            backButton.gameObject.SetActive(true);
+        }
 
         //0,1,2,3 set panels visible or not
         if (progress < stagePanels.Count)
@@ -85,10 +99,16 @@ public class CreationStageSelector : MonoBehaviour
             }
         }
 
-        //if progresing past 3rd stage of character creation, set character stats and load next scene
-        if (progress > 3)
+        //if progresing past 3rd stage of character creation, set character stats
+        if (progress == 3)
         {
             CharacterInfo.Stats = new List<int>() { StatPreview.BodyModifierTotal + 1, StatPreview.MindModifierTotal + 1, StatPreview.CharmModifierTotal + 1 }.ToArray();
+            StatblockPrinter.UpdateStatsUI.Invoke();
+        }
+
+        //if all steps complete, load game scene
+        if (progress > 4)
+        {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
