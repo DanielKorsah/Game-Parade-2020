@@ -1882,6 +1882,58 @@ PrefabInstance:
       propertyPath: m_Name
       value: RandomStatWheelPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
+        type: 3}
+      propertyPath: Names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
+        type: 3}
+      propertyPath: Descriptions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
+        type: 3}
+      propertyPath: Names.Array.data[0]
+      value: Reason-0
+      objectReference: {fileID: 0}
+    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
+        type: 3}
+      propertyPath: Names.Array.data[1]
+      value: Reason-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
+        type: 3}
+      propertyPath: Names.Array.data[2]
+      value: Reason-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
+        type: 3}
+      propertyPath: Descriptions.Array.data[0]
+      value: 0-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor
+        urna ullamcorper ornare gravida. Fusce tempor, nunc quis tristique aliquet,
+        nulla eros sodales orci, id malesuada lorem ex vitae massa. In ut ligula
+        eu est accumsan faucibus non eget lorem. Mauris ultrices blandit posuere.
+        Sed dictum eu diam quis condimentum.
+      objectReference: {fileID: 0}
+    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
+        type: 3}
+      propertyPath: Descriptions.Array.data[1]
+      value: 1-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor
+        urna ullamcorper ornare gravida. Fusce tempor, nunc quis tristique aliquet,
+        nulla eros sodales orci, id malesuada lorem ex vitae massa. In ut ligula
+        eu est accumsan faucibus non eget lorem. Mauris ultrices blandit posuere.
+        Sed dictum eu diam quis condimentum.
+      objectReference: {fileID: 0}
+    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
+        type: 3}
+      propertyPath: Descriptions.Array.data[2]
+      value: 2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor
+        urna ullamcorper ornare gravida. Fusce tempor, nunc quis tristique aliquet,
+        nulla eros sodales orci, id malesuada lorem ex vitae massa. In ut ligula
+        eu est accumsan faucibus non eget lorem. Mauris ultrices blandit posuere.
+        Sed dictum eu diam quis condimentum.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bb956233faf9314491f24ded5187b4e, type: 3}
 --- !u!1001 &5599762417250298090
