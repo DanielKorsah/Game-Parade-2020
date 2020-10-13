@@ -86,7 +86,7 @@ public class CreationStageSelector : MonoBehaviour
             backButton.gameObject.SetActive(true);
         }
 
-        //0,1,2,3 set panels visible or not
+        //0,1,2,3,4 set panels visible or not
         if (progress < stagePanels.Count)
         {
 
