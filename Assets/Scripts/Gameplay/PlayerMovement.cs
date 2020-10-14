@@ -27,8 +27,8 @@ public class PlayerMovement : MonoBehaviour
             anim.ChangeAnimationState(Directions.Up);
         else if (moveDirection.x == 0 && moveDirection.y < 0)
             anim.ChangeAnimationState(Directions.Down);
-        else
-            anim.ChangeAnimationState(Directions.None);
+        //else
+        //anim.ChangeAnimationState(Directions.None);
     }
     void FixedUpdate()
     {
