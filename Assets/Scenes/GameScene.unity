@@ -149,15 +149,15 @@ RectTransform:
   m_GameObject: {fileID: 45216672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.704, y: 1.704, z: 1.704}
+  m_LocalScale: {x: 1.0121931, y: 1.0121931, z: 1.0121931}
   m_Children: []
   m_Father: {fileID: 867221338}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 84, y: -81}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 59.5, y: -81}
+  m_SizeDelta: {x: 100, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &45216674
 MonoBehaviour:
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ab5048cbcc370e6468b43ea02b7f7e6a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a953820e6484b340a0d906d8204f9b9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -335,8 +335,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a5b4599d7227243b7cbc063afa0005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 0
+  offset: -2.5
   sortingOrderBase: 5000
+  staticObject: 0
+  order: 0
 --- !u!1 &867221334
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,8 +487,9 @@ GameObject:
   - component: {fileID: 1084236244}
   - component: {fileID: 1084236246}
   - component: {fileID: 1084236245}
+  - component: {fileID: 1084236247}
   m_Layer: 0
-  m_Name: TallObject
+  m_Name: WallVertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -582,6 +585,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1084236247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084236243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a5b4599d7227243b7cbc063afa0005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0
+  sortingOrderBase: 5000
+  staticObject: 0
+  order: 0
 --- !u!1 &1306612261
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,8 +1098,9 @@ GameObject:
   - component: {fileID: 2020218047}
   - component: {fileID: 2020218048}
   - component: {fileID: 2020218049}
+  - component: {fileID: 2020218050}
   m_Layer: 0
-  m_Name: WallVertical
+  m_Name: TallObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1176,6 +1196,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 0.52820766}
   m_EdgeRadius: 0
+--- !u!114 &2020218050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020218046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a5b4599d7227243b7cbc063afa0005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 3.4
+  sortingOrderBase: 5000
+  staticObject: 0
+  order: 0
 --- !u!1001 &6136414549340849358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1384,7 +1420,7 @@ PrefabInstance:
     - target: {fileID: 8633242150125431847, guid: 1bb30f676b47aab4d9ac9cd9bbcde7df,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 282.2
+      value: 234.3
       objectReference: {fileID: 0}
     - target: {fileID: 8633242150125431847, guid: 1bb30f676b47aab4d9ac9cd9bbcde7df,
         type: 3}
