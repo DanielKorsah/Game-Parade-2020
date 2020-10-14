@@ -22,7 +22,7 @@ public class CharacterInfo : MonoBehaviour
             Destroy(gameObject);
         }
 
-        Sprites = new List<Sprite>() { Resources.Load<Sprite>("Art/CharacterArt/judyStatic_1"), Resources.Load<Sprite>("Art/CharacterArt/judyStatic_2"), Resources.Load<Sprite>("Art/CharacterArt/judyStatic_3") };
+        Sprites = new List<Sprite>() { Resources.Load<Sprite>("Art/CharacterArt/judyCC_1"), Resources.Load<Sprite>("Art/CharacterArt/judyCC_2"), Resources.Load<Sprite>("Art/CharacterArt/judyCC_3") };
     }
 
 }

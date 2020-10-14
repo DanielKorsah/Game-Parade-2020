@@ -1470,16 +1470,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1736764473188677429, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_Name
-      value: Title
-      objectReference: {fileID: 0}
-    - target: {fileID: 1736764473188677431, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_text
-      value: Late Adulthood
-      objectReference: {fileID: 0}
     - target: {fileID: 1736764473343532052, guid: ce9369e6b4503eb4096e1879a10f273b,
         type: 3}
       propertyPath: m_Name
@@ -1626,66 +1616,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1736764473503986744, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3098629232429478668, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3098629232429478668, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3098629232429478668, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3098629232429478668, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6418117032344857602, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6418117032344857602, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6418117032344857602, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6418117032344857602, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8549459420780711626, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8549459420780711626, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8549459420780711626, guid: ce9369e6b4503eb4096e1879a10f273b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8549459420780711626, guid: ce9369e6b4503eb4096e1879a10f273b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
@@ -1951,83 +1881,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: RandomStatWheelPanel
       objectReference: {fileID: 0}
-    - target: {fileID: 428419040219327433, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040219327433, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040219327433, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040219327433, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: Names.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: Descriptions.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: Names.Array.data[0]
-      value: Reason-0
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: Names.Array.data[1]
-      value: Reason-1
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: Names.Array.data[2]
-      value: Reason-2
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: Descriptions.Array.data[0]
-      value: 0-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor
-        urna ullamcorper ornare gravida. Fusce tempor, nunc quis tristique aliquet,
-        nulla eros sodales orci, id malesuada lorem ex vitae massa. In ut ligula
-        eu est accumsan faucibus non eget lorem. Mauris ultrices blandit posuere.
-        Sed dictum eu diam quis condimentum.
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: Descriptions.Array.data[1]
-      value: 1-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor
-        urna ullamcorper ornare gravida. Fusce tempor, nunc quis tristique aliquet,
-        nulla eros sodales orci, id malesuada lorem ex vitae massa. In ut ligula
-        eu est accumsan faucibus non eget lorem. Mauris ultrices blandit posuere.
-        Sed dictum eu diam quis condimentum.
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: Descriptions.Array.data[2]
-      value: 2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor
-        urna ullamcorper ornare gravida. Fusce tempor, nunc quis tristique aliquet,
-        nulla eros sodales orci, id malesuada lorem ex vitae massa. In ut ligula
-        eu est accumsan faucibus non eget lorem. Mauris ultrices blandit posuere.
-        Sed dictum eu diam quis condimentum.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8231844709211322216, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -362
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bb956233faf9314491f24ded5187b4e, type: 3}
 --- !u!1001 &5599762417250298090
@@ -2165,12 +2018,12 @@ PrefabInstance:
     - target: {fileID: 5599762416334585286, guid: fcebd399f6a53d742b59c74db35bbc5c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 640
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 5599762416334585286, guid: fcebd399f6a53d742b59c74db35bbc5c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 640
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 5599762416334585287, guid: fcebd399f6a53d742b59c74db35bbc5c,
         type: 3}

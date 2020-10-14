@@ -22,13 +22,11 @@ public class CharacterSpriteSelect : MonoBehaviour
 
         imageComponent = gameObject.GetComponent<Image>();
 
-        if (characterSprites.Count > 0)
-        {
-            index = -1;
-            CharacterSelectForward.Invoke();
-            CharacterInfo.PlayerSpriteIndex = index;
-            imageComponent.sprite = CharacterInfo.Sprites[CharacterInfo.PlayerSpriteIndex];
-        }
+
+        index = -1;
+        CharacterSelectForward.Invoke();
+        CharacterInfo.PlayerSpriteIndex = index;
+        imageComponent.sprite = CharacterInfo.Sprites[CharacterInfo.PlayerSpriteIndex];
 
     }
 
@@ -37,7 +35,7 @@ public class CharacterSpriteSelect : MonoBehaviour
     public void ScrollForward()
     {
         index++;
-        if (index > characterSprites.Count - 1)
+        if (index > CharacterInfo.Sprites.Count - 1)
             index = 0;
 
         CharacterInfo.PlayerSpriteIndex = index;
@@ -48,7 +46,7 @@ public class CharacterSpriteSelect : MonoBehaviour
     {
         index--;
         if (index < 0)
-            index = characterSprites.Count - 1;
+            index = CharacterInfo.Sprites.Count - 1;
 
         CharacterInfo.PlayerSpriteIndex = index;
         imageComponent.sprite = CharacterInfo.Sprites[CharacterInfo.PlayerSpriteIndex];
