@@ -2,11 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class CharacterInfo
+public class CharacterInfo : MonoBehaviour
 {
-
-    public static Sprite PlayerSprite;
+    public static List<Sprite> Sprites;
+    public static int PlayerSpriteIndex = 1;
     public static int[] Stats = { 1, 1, 1 };
+    public static CharacterInfo Instance { get; private set; }
+
+    void Awake()
+    {
+        //singleton
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        Sprites = new List<Sprite>() { Resources.Load<Sprite>("Art/CharacterArt/judyStatic_1"), Resources.Load<Sprite>("Art/CharacterArt/judyStatic_2"), Resources.Load<Sprite>("Art/CharacterArt/judyStatic_3") };
+    }
 
 }
 

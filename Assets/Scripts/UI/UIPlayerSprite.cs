@@ -5,16 +5,17 @@ using UnityEngine.UI;
 
 public class UIPlayerSprite : MonoBehaviour
 {
-    Image i;
+    //private List<Sprite> sprites = new List<Sprite>() { Resources.Load<Sprite>("Art/CharacterArt/judyStatic_1.png"), Resources.Load<Sprite>("Art/CharacterArt/judyStatic_2.png"), Resources.Load<Sprite>("Art/CharacterArt/judyStatic_3.png") };
+    private Image image;
 
     void Start()
     {
-        i = GetComponent<Image>();
+        image = GetComponent<Image>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        i.sprite = CharacterInfo.PlayerSprite;
+        image.sprite = CharacterInfo.Sprites[CharacterInfo.PlayerSpriteIndex];
     }
 }
