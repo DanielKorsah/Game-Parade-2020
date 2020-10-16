@@ -39,7 +39,7 @@ public class TaskConfirm : MonoBehaviour
         else if (stat == 2)
             statType = "Charm";
 
-        oddsText.text = statType + "test\n" + odds + "% chance of success";
+        oddsText.text = statType + " test\n" + odds + "% chance of success";
 
         popDown.SetDown();
     }
