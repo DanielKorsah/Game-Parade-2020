@@ -6,9 +6,9 @@ public class PositionBasedSortingLayer : MonoBehaviour
 {
     [SerializeField] private float offset = 0;
     [SerializeField] int sortingOrderBase = 5000;
+    [SerializeField] bool staticObject = false;
+    [SerializeField] int order;
     private Renderer renderer;
-
-
 
     void Awake()
     {
@@ -18,6 +18,9 @@ public class PositionBasedSortingLayer : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        renderer.sortingOrder = (int)(sortingOrderBase - (transform.position.y - offset));
+        order = (int)(sortingOrderBase - (transform.position.y * 10 - offset));
+        renderer.sortingOrder = order;
+        if (staticObject)
+            Destroy(this);
     }
 }

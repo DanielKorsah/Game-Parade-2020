@@ -8,6 +8,8 @@ public class CharacterInfo : MonoBehaviour
     public static int PlayerSpriteIndex = 1;
     public static int[] Stats = { 1, 1, 1 };
     public static CharacterInfo Instance { get; private set; }
+    public static int Notoriety = 0;
+
 
     void Awake()
     {
@@ -22,7 +24,7 @@ public class CharacterInfo : MonoBehaviour
             Destroy(gameObject);
         }
 
-        Sprites = new List<Sprite>() { Resources.Load<Sprite>("Art/CharacterArt/judyStatic_1"), Resources.Load<Sprite>("Art/CharacterArt/judyStatic_2"), Resources.Load<Sprite>("Art/CharacterArt/judyStatic_3") };
+        Sprites = new List<Sprite>() { Resources.Load<Sprite>("Art/CharacterArt/judyCC_1"), Resources.Load<Sprite>("Art/CharacterArt/judyCC_2"), Resources.Load<Sprite>("Art/CharacterArt/judyCC_3") };
     }
 
 }
