@@ -61,7 +61,7 @@ public class Task : Interactable
     protected override void Interaction()
     {
         probability = (difficultyModifier + CharacterInfo.Stats[statUsed]) / 10.0f;
-        TaskConfirm.TaskInteraction.Invoke(TaskName, TaskDescription, (float)System.Math.Round(probability * 100.0f, 2));
+        TaskConfirm.TaskInteraction.Invoke(TaskName, TaskDescription, (float)System.Math.Round(probability * 100.0f, 2), statUsed);
         Debug.Log("Interacted with task: " + TaskName);
     }
 

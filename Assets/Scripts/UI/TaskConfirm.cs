@@ -8,7 +8,7 @@ public class TaskConfirm : MonoBehaviour
 {
 
     [System.Serializable]
-    public class TaskInteractedEvent : UnityEvent<string, string, float> { };
+    public class TaskInteractedEvent : UnityEvent<string, string, float, int> { };
     public static TaskInteractedEvent TaskInteraction;
 
     [SerializeField] private TMP_Text tasknameText;
@@ -26,11 +26,20 @@ public class TaskConfirm : MonoBehaviour
         popDown = gameObject.GetComponent<PopDown>();
     }
 
-    void PresentBox(string title, string desc, float odds)
+    void PresentBox(string title, string desc, float odds, int stat)
     {
         tasknameText.text = title;
         descriptionText.text = desc;
-        oddsText.text = odds + "% chance of success";
+        string statType = "DEFAULT";
+
+        if (stat == 0)
+            statType = "Body";
+        else if (stat == 1)
+            statType = "Mind";
+        else if (stat == 2)
+            statType = "Charm";
+
+        oddsText.text = statType + "test\n" + odds + "% chance of success";
 
         popDown.SetDown();
     }
