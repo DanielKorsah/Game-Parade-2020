@@ -22,12 +22,13 @@ public class NotorietyMeter : MonoBehaviour
     void Start()
     {
         NotorietyChange.AddListener(UpdateNotoriety);
-        UpdateFill();
+        UpdateNotoriety(0);
     }
 
     void UpdateNotoriety(int change)
     {
         NotorietyValue += change;
+        CharacterInfo.Notoriety = NotorietyValue;
         UpdateFill();
     }
 
@@ -36,7 +37,6 @@ public class NotorietyMeter : MonoBehaviour
         NotorietyPercentage = (float)NotorietyValue / MaxValue;
         NotorietyPercentage = (float)System.Math.Round(NotorietyPercentage * 100, 2);
         fillImage.fillAmount = NotorietyPercentage;
-        CharacterInfo.Notoriety = NotorietyValue;
         label.text = "Notoriety\n" + NotorietyPercentage + "%";
     }
 }
