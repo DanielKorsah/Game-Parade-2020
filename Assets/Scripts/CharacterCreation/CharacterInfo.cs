@@ -8,6 +8,8 @@ public class CharacterInfo : MonoBehaviour
     public static int PlayerSpriteIndex = 1;
     public static int[] Stats = { 1, 1, 1 };
     public static CharacterInfo Instance { get; private set; }
+    public static int Notoriety = 0;
+
 
     void Awake()
     {
