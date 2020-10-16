@@ -1249,27 +1249,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TaskConfirmPanel
       objectReference: {fileID: 0}
-    - target: {fileID: 4218127693958047182, guid: 45b500d1927b9ee47b3d8396abefd19b,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 82fa29010a0d56e4caff254399282ae5,
-        type: 3}
-    - target: {fileID: 4218127693958047182, guid: 45b500d1927b9ee47b3d8396abefd19b,
-        type: 3}
-      propertyPath: m_FillCenter
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4218127693958047182, guid: 45b500d1927b9ee47b3d8396abefd19b,
-        type: 3}
-      propertyPath: m_RaycastTarget
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4218127693958047182, guid: 45b500d1927b9ee47b3d8396abefd19b,
-        type: 3}
-      propertyPath: m_PixelsPerUnitMultiplier
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45b500d1927b9ee47b3d8396abefd19b, type: 3}
 --- !u!224 &1625728127 stripped
