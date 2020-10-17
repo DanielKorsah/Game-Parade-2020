@@ -71,7 +71,6 @@ public class Task : Interactable
 
     private void TriggerTask()
     {
-
         float roll = Random.Range(0.0f, 1.0f);
         if (roll <= probability)
         {
@@ -87,5 +86,6 @@ public class Task : Interactable
             icon.color = colours[2];
         }
         base.useable = false;
+        CharacterInfo.TimeAdvanceEvent.Invoke();
     }
 }
