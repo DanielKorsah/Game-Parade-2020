@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - background
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,43 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 1725136389
+    locked: 0
+  - name: outdoorFloor
+    uniqueID: 662744515
+    locked: 0
+  - name: indoorFloor2
+    uniqueID: 1117362071
+    locked: 0
+  - name: backWalls
+    uniqueID: 3041111619
+    locked: 0
+  - name: walls
+    uniqueID: 4162610213
+    locked: 0
+  - name: wallObject
+    uniqueID: 3917873333
+    locked: 0
+  - name: object
+    uniqueID: 1697351483
+    locked: 0
+  - name: midWalls
+    uniqueID: 3540441871
+    locked: 0
+  - name: midObjects
+    uniqueID: 3362999355
+    locked: 0
+  - name: outsideWalls
+    uniqueID: 2856638031
+    locked: 0
+  - name: outsideWallObject
+    uniqueID: 2938376585
+    locked: 0
+  - name: outsideObject
+    uniqueID: 1405004201
+    locked: 0
+  - name: overlay
+    uniqueID: 2021745911
     locked: 0

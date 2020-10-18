@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8627329361830836732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8627329361830836733}
+  m_Layer: 0
+  m_Name: Day 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8627329361830836733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8627329361830836732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4779955455240212826}
+  - {fileID: 4779955454379457283}
+  - {fileID: 4779955454591759280}
+  - {fileID: 4779955456032550500}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8627329360918087725
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8627329361830836733}
+    m_Modifications:
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_Name
+      value: BreakingNEntering
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -929.14996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -523.99005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1805.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskName
+      value: Breaking And Entering
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskDescription
+      value: "Lording over us all and hiding here in his castle when it\u2019s not
+        time to boss us around, well I\u2019ll put a change to that."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: difficultyTier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: statUsed
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
+--- !u!4 &4779955454591759280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 8627329360918087725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8627329361097883806
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8627329361830836733}
+    m_Modifications:
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_Name
+      value: PrankCalls
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -930.20996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -523.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1805.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskName
+      value: Prank Calls
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskDescription
+      value: "\u201CMiss Thomas? I\u2019m calling from the Meadowside Care Home,
+        I\u2019ve got something to say about your father\u2026\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: difficultyTier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: statUsed
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
+--- !u!4 &4779955454379457283 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 8627329361097883806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8627329361691891193
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8627329361830836733}
+    m_Modifications:
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_Name
+      value: WhatHeDeserves
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -928.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -523.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1805.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskName
+      value: It's What He Deserves
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskDescription
+      value: 'Dr. Donald, what a condescending little man, how have I always wanted
+        to punch him..
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: statUsed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: difficultyTier
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
+--- !u!4 &4779955456032550500 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 8627329361691891193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8627329362485275335
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8627329361830836733}
+    m_Modifications:
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_Name
+      value: TrashBand
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -931.01996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -523.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1805.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskDescription
+      value: "\u201COh Judy you\u2019re being too loud again\u201D Bugger off I say!
+        I\u2019ll make as much noise as I please"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskName
+      value: Trash Band
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: statUsed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: difficultyTier
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
+--- !u!4 &4779955455240212826 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 8627329362485275335}
+  m_PrefabAsset: {fileID: 0}
