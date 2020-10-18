@@ -1,9 +1,6 @@
 fileFormatVersion: 2
 guid: 1a03899fbb4c80c478234bea3e335183
 TextureImporter:
-<<<<<<< HEAD
-  internalIDToNameTable: []
-=======
   internalIDToNameTable:
   - first:
       213: -7339552780303466977
@@ -29,7 +26,6 @@ TextureImporter:
   - first:
       213: 4772634704556627082
     second: UI_weekpillsAnim_7
->>>>>>> dev
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -64,15 +60,11 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 1
-=======
   spriteMode: 2
->>>>>>> dev
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -89,31 +81,26 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
-=======
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -125,7 +112,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,7 +124,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -152,9 +139,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 8
-        y: 3
+        y: 1
         width: 534
-        height: 123
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,9 +160,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 558
-        y: 3
+        y: 1
         width: 534
-        height: 241
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,9 +181,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1108
-        y: 3
+        y: 1
         width: 534
-        height: 241
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,9 +202,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1658
-        y: 3
+        y: 1
         width: 534
-        height: 241
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,9 +223,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2208
-        y: 3
+        y: 1
         width: 534
-        height: 241
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,9 +244,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2758
-        y: 3
+        y: 1
         width: 534
-        height: 241
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,9 +265,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3308
-        y: 3
+        y: 1
         width: 534
-        height: 242
+        height: 244
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,9 +286,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3858
-        y: 14
+        y: 12
         width: 534
-        height: 231
+        height: 233
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,11 +302,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
->>>>>>> dev
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: a90a80531d4bce64b800f0f1fdf56143
     internalID: 0
     vertices: []
     indices: 
