@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7123499987096980755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7123499987096980754}
+  m_Layer: 0
+  m_Name: Day 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7123499987096980754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7123499987096980755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6283787078255486389}
+  - {fileID: 6283787079539838956}
+  - {fileID: 6283787079896975199}
+  - {fileID: 6283787079055940235}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7123499987083878678
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7123499987096980754}
+    m_Modifications:
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_Name
+      value: LeaveMeAlone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -928.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -523.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1805.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskName
+      value: Leave Me Alone!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskDescription
+      value: "Even here I have to look at kids? Little brats, always where you don\u2019t
+        want them\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: statUsed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: difficultyTier
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
+--- !u!4 &6283787079055940235 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 7123499987083878678}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7123499987885383208
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7123499987096980754}
+    m_Modifications:
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_Name
+      value: GreenLawns
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -931.01996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -523.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1805.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskName
+      value: Green Lawns
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskDescription
+      value: 'Would it really have been that bad for me to keep a garden here? No!
+        Well enjoy this view.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: statUsed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: difficultyTier
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
+--- !u!4 &6283787078255486389 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 7123499987885383208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7123499988323220674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7123499987096980754}
+    m_Modifications:
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_Name
+      value: MadeWithLove
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -929.14996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -523.99005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1805.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskName
+      value: Made With Love
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskDescription
+      value: With how bland everything is normally, who knows? This might even improve
+        the taste!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: difficultyTier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: statUsed
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
+--- !u!4 &6283787079896975199 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 7123499988323220674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7123499988647851121
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7123499987096980754}
+    m_Modifications:
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_Name
+      value: Feedback
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -930.20996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -523.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1805.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskName
+      value: Feedback
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: difficultyTier
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskDescription
+      value: Dear Maggie, your snoring can be heard from across the building and
+        we all hate you! Have a good day!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: statUsed
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
+--- !u!4 &6283787079539838956 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 7123499988647851121}
+  m_PrefabAsset: {fileID: 0}
