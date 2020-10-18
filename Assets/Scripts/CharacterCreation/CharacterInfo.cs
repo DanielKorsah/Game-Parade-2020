@@ -12,6 +12,8 @@ public class CharacterInfo : MonoBehaviour
     public static int Notoriety = 0;
     public static int Time = 0;
     public static int Day = 0;
+    public static int x;
+    
 
     public static UnityEvent TimeAdvanceEvent = new UnityEvent();
 
@@ -42,6 +44,7 @@ public class CharacterInfo : MonoBehaviour
         {
             Day++;
             Time = 0;
+            PillCalendar.DayAdvanceEvent.Invoke();
         }
     }
 
