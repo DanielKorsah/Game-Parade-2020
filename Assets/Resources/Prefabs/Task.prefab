@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3886534397007231901}
   - component: {fileID: 3886534397007231900}
   - component: {fileID: 3886534397007231902}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Task
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,6 +63,9 @@ MonoBehaviour:
   IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
   SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
   FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
   TaskName: Default
   TaskDescription: Do the thing.
   succeeded: 0

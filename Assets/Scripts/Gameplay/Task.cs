@@ -23,6 +23,7 @@ public class Task : Interactable
     private Color[] colours = new Color[3];
     private float probability;
     private float percentChance;
+    private int notorietyYield;
 
 
     protected override void Start()
@@ -45,12 +46,15 @@ public class Task : Interactable
         {
             case 0:
                 difficultyModifier = 6;
+                notorietyYield = 2;
                 break;
             case 1:
                 difficultyModifier = 3;
+                notorietyYield = 5;
                 break;
             case 2:
                 difficultyModifier = 0;
+                notorietyYield = 6;
                 break;
             default:
                 break;
@@ -67,13 +71,13 @@ public class Task : Interactable
 
     private void TriggerTask()
     {
-
         float roll = Random.Range(0.0f, 1.0f);
         if (roll <= probability)
         {
             succeeded = true;
             icon.sprite = SucceededSprite;
             icon.color = colours[0];
+            NotorietyMeter.NotorietyChange.Invoke(notorietyYield);
         }
         else
         {
@@ -82,5 +86,6 @@ public class Task : Interactable
             icon.color = colours[2];
         }
         base.useable = false;
+        CharacterInfo.TimeAdvanceEvent.Invoke();
     }
 }
