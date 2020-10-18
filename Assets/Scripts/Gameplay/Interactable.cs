@@ -32,6 +32,7 @@ public class Interactable : MonoBehaviour
     void OnTriggerExit2D(Collider2D col)
     {
         inRange = false;
+
     }
 
     void Update()
