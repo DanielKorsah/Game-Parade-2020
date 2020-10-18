@@ -1119,10 +1119,70 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2725561812652930295, guid: 45b500d1927b9ee47b3d8396abefd19b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725561812652930295, guid: 45b500d1927b9ee47b3d8396abefd19b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725561812652930295, guid: 45b500d1927b9ee47b3d8396abefd19b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725561812652930295, guid: 45b500d1927b9ee47b3d8396abefd19b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1643044284}
+    - target: {fileID: 2725561812652930295, guid: 45b500d1927b9ee47b3d8396abefd19b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725561812652930295, guid: 45b500d1927b9ee47b3d8396abefd19b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2822502756440653626, guid: 45b500d1927b9ee47b3d8396abefd19b,
         type: 3}
       propertyPath: m_Name
       value: TaskConfirmPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825372865747163541, guid: 45b500d1927b9ee47b3d8396abefd19b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825372865747163541, guid: 45b500d1927b9ee47b3d8396abefd19b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825372865747163541, guid: 45b500d1927b9ee47b3d8396abefd19b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825372865747163541, guid: 45b500d1927b9ee47b3d8396abefd19b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1643044284}
+    - target: {fileID: 4825372865747163541, guid: 45b500d1927b9ee47b3d8396abefd19b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825372865747163541, guid: 45b500d1927b9ee47b3d8396abefd19b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45b500d1927b9ee47b3d8396abefd19b, type: 3}
@@ -1132,6 +1192,65 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1625728126}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1643044283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1643044285}
+  - component: {fileID: 1643044284}
+  m_Layer: 5
+  m_Name: Option Accept
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1643044284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643044283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/SFX/UI/Menu Confirm
+  PlayEvent: 0
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!224 &1643044285
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643044283}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.53332996, y: 0.53332996, z: 0.53332996}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 512, y: 384}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1661747366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,6 +1263,7 @@ GameObject:
   - component: {fileID: 1661747368}
   - component: {fileID: 1661747367}
   - component: {fileID: 1661747370}
+  - component: {fileID: 1661747371}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1158,7 +1278,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661747366}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1661747368
 Camera:
   m_ObjectHideFlags: 0
@@ -1228,6 +1348,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56ea56f0cdd31da4f92d5d5194117416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1661747371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661747366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Music/Good Theme MIXED No Birds
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1689471971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,6 +1742,25 @@ MonoBehaviour:
   sortingOrderBase: 5000
   staticObject: 0
   order: 0
+--- !u!1 &2035140033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6136414548627649043, guid: 84d7556a3d0337245a0e2fb74af2f129,
+    type: 3}
+  m_PrefabInstance: {fileID: 6136414549340849358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2035140034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035140033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0
 --- !u!1001 &2474274276865209967
 PrefabInstance:
   m_ObjectHideFlags: 0

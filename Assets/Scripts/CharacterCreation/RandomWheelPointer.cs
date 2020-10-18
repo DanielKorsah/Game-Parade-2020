@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
+
 public class RandomWheelPointer : MonoBehaviour
-{
+  {
     public List<string> Names = new List<string>();
     public List<string> Descriptions = new List<string>();
 
@@ -18,7 +20,8 @@ public class RandomWheelPointer : MonoBehaviour
     private bool stopped = true;
     private float rotationSpeed = 360;
     void Start()
-    {
+   
+    { 
         stopTime = Random.Range(3.0f, 5.0f);
     }
 
@@ -41,6 +44,7 @@ public class RandomWheelPointer : MonoBehaviour
         transform.rotation = Quaternion.identity;
         stopped = false;
         countdown = stopTime;
+
     }
 
     private void FinishSpin()
