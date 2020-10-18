@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4745056637247523744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4745056637247523745}
+  m_Layer: 0
+  m_Name: Day 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4745056637247523745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4745056637247523744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8374001151599600390}
+  - {fileID: 8374001152416319839}
+  - {fileID: 8374001153165689324}
+  - {fileID: 8374001151854795832}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4745056637578356645
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4745056637247523745}
+    m_Modifications:
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_Name
+      value: GoApeShit
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -928.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -524.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1805.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskDescription
+      value: "It\u2019s been a long week hasn\u2019t it? Don\u2019t you feel a bit
+        restless? Don\u2019t you just want to start something? Now\u2019s your chance,
+        seize the day!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskName
+      value: Go Ape Shit
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: statUsed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: difficultyTier
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
+--- !u!4 &8374001151854795832 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 4745056637578356645}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4745056637834598555
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4745056637247523745}
+    m_Modifications:
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_Name
+      value: MorningWorkout
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -931.01996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -524.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1805.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskDescription
+      value: "It\u2019s not like I need my deposit back.."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskName
+      value: Morning Workout
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: statUsed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: difficultyTier
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
+--- !u!4 &8374001151599600390 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 4745056637834598555}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4745056638482053745
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4745056637247523745}
+    m_Modifications:
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_Name
+      value: LastWords
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -929.14996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -524.93005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1805.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskName
+      value: Last Words
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskDescription
+      value: 'That bastard is a pathetic excuse for a man, and I intend to remind
+        him of that
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: difficultyTier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: statUsed
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
+--- !u!4 &8374001153165689324 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 4745056638482053745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4745056639198917314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4745056637247523745}
+    m_Modifications:
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_Name
+      value: GoodbyeParty
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231898, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -930.20996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -524.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1805.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskDescription
+      value: Pah! Nobody asked for this, these fools think I want to spend my last
+        day with them? Good riddance!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: TaskName
+      value: Goodbye Party
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: statUsed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886534397007231902, guid: 60a348fcbae293b4fb1978f7c65760e6,
+        type: 3}
+      propertyPath: difficultyTier
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
+--- !u!4 &8374001152416319839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 4745056639198917314}
+  m_PrefabAsset: {fileID: 0}
