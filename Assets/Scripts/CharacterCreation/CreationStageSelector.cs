@@ -77,7 +77,7 @@ public class CreationStageSelector : MonoBehaviour
         // if random wheel page show Play, also lock back button out so decisions are finalised
         else if (progress == 4)
         {
-            nextText.text = "Fuck This";
+            nextText.text = "Play";
             backButton.gameObject.SetActive(false);
         }
         else

@@ -2404,51 +2404,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1518779234}
     m_Modifications:
-    - target: {fileID: 428419038829144818, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419038829144819, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -105.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419038829144819, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -10.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419038853250000, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419038853250000, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419038853250000, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_text
-      value: ' '
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419038853250000, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_margin.y
-      value: 87.587975
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419038853250001, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -388
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419038853250001, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 428419038928871918, guid: 9bb956233faf9314491f24ded5187b4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2564,49 +2519,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 428419039392743494, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419039392743494, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_text
-      value: You never get what you want
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419039392743495, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -325
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419039392743495, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419039925329172, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_text
-      value: 'The world still wasn''t done with me.
-
-        I had a doctor approach
-        me...'
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419039925329172, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 52
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419039925329172, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 52
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419039925329173, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -96
-      objectReference: {fileID: 0}
     - target: {fileID: 428419040219327433, guid: 9bb956233faf9314491f24ded5187b4e,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2640,45 +2552,44 @@ PrefabInstance:
     - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
         type: 3}
       propertyPath: Names.Array.data[0]
-      value: Split Spleen Syndrome (+1 body, -1 mind)
+      value: Reason-0
       objectReference: {fileID: 0}
     - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
         type: 3}
       propertyPath: Names.Array.data[1]
-      value: Malignant Odors (+1 mind, -1 charm)
+      value: Reason-1
       objectReference: {fileID: 0}
     - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
         type: 3}
       propertyPath: Names.Array.data[2]
-      value: Saint's Shakes (+1 charm, -1 body)
+      value: Reason-2
       objectReference: {fileID: 0}
     - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
         type: 3}
       propertyPath: Descriptions.Array.data[0]
-      value: Rarely fatal but seems I was a special case. By her estimation, I had
-        a week left to live.
+      value: 0-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor
+        urna ullamcorper ornare gravida. Fusce tempor, nunc quis tristique aliquet,
+        nulla eros sodales orci, id malesuada lorem ex vitae massa. In ut ligula
+        eu est accumsan faucibus non eget lorem. Mauris ultrices blandit posuere.
+        Sed dictum eu diam quis condimentum.
       objectReference: {fileID: 0}
     - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
         type: 3}
       propertyPath: Descriptions.Array.data[1]
-      value: Apparently my case was the worst the doctor had ever seen. The inevitable
-        could only be delayed by a week at most.
+      value: 1-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor
+        urna ullamcorper ornare gravida. Fusce tempor, nunc quis tristique aliquet,
+        nulla eros sodales orci, id malesuada lorem ex vitae massa. In ut ligula
+        eu est accumsan faucibus non eget lorem. Mauris ultrices blandit posuere.
+        Sed dictum eu diam quis condimentum.
       objectReference: {fileID: 0}
     - target: {fileID: 428419040234311659, guid: 9bb956233faf9314491f24ded5187b4e,
         type: 3}
       propertyPath: Descriptions.Array.data[2]
-      value: More dangerous in old people, I was told. The doctor could confidently
-        only promise me a week.
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040621022247, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 428419040621022247, guid: 9bb956233faf9314491f24ded5187b4e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 32
+      value: 2-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor
+        urna ullamcorper ornare gravida. Fusce tempor, nunc quis tristique aliquet,
+        nulla eros sodales orci, id malesuada lorem ex vitae massa. In ut ligula
+        eu est accumsan faucibus non eget lorem. Mauris ultrices blandit posuere.
+        Sed dictum eu diam quis condimentum.
       objectReference: {fileID: 0}
     - target: {fileID: 8231844709211322216, guid: 9bb956233faf9314491f24ded5187b4e,
         type: 3}

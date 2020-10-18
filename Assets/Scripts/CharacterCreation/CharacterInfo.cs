@@ -44,7 +44,6 @@ public class CharacterInfo : MonoBehaviour
         {
             Day++;
             Time = 0;
-            PillCalendar.DayAdvanceEvent.Invoke();
         }
     }
 
