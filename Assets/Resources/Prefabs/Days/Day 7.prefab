@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4745056637247523744
+--- !u!1 &4426537339819920452
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4745056637247523745}
+  - component: {fileID: 4215884229170198442}
   m_Layer: 0
   m_Name: Day 7
   m_TagString: Untagged
@@ -16,27 +16,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4745056637247523745
+--- !u!4 &4215884229170198442
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4745056637247523744}
+  m_GameObject: {fileID: 4426537339819920452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 8374001151599600390}
-  - {fileID: 8374001152416319839}
-  - {fileID: 8374001153165689324}
-  - {fileID: 8374001151854795832}
+  - {fileID: 6993327049224618826}
+  - {fileID: 2306516477159498263}
+  - {fileID: 5596278816760289132}
+  - {fileID: 6853911757896380407}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &4745056637578356645
-PrefabInstance:
+--- !u!1 &6114715617857123122
+GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< Updated upstream
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 4745056637247523745}
@@ -54,17 +55,17 @@ PrefabInstance:
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -928.04
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -524.89
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1805.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
@@ -131,15 +132,53 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
 --- !u!4 &8374001151854795832 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 4745056637578356645}
+=======
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &4745056637834598555
-PrefabInstance:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5596278816760289132}
+  - component: {fileID: 8354253472011426218}
+  - component: {fileID: 2320605701055897802}
+  m_Layer: 8
+  m_Name: LastWords
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5596278816760289132
+>>>>>>> Stashed changes
+Transform:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6114715617857123122}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.18, y: 5.82, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4215884229170198442}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &8354253472011426218
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6114715617857123122}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Modification:
     m_TransformParent: {fileID: 4745056637247523745}
     m_Modifications:
@@ -156,17 +195,17 @@ PrefabInstance:
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -931.01996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -524.89
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1805.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
@@ -231,15 +270,83 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
 --- !u!4 &8374001151599600390 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 4745056637834598555}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &4745056638482053745
-PrefabInstance:
+=======
+  m_Radius: 0.25
+--- !u!114 &2320605701055897802
+MonoBehaviour:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6114715617857123122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b15ce3bf08a0848bbec407de0356c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
+  SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
+  FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
+  TaskName: Last Words
+  TaskDescription: 'That bastard is a pathetic excuse for a man, and I intend to
+    remind him of that
+
+'
+  succeeded: 0
+  statUsed: 1
+  difficultyTier: 1
+--- !u!1 &7132535458597909808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2306516477159498263}
+  - component: {fileID: 4986378021132673863}
+  - component: {fileID: 1907552161359173655}
+  m_Layer: 8
+  m_Name: GoodbyeParty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2306516477159498263
+>>>>>>> Stashed changes
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7132535458597909808}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.81, y: -1.06, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4215884229170198442}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &4986378021132673863
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7132535458597909808}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Modification:
     m_TransformParent: {fileID: 4745056637247523745}
     m_Modifications:
@@ -256,17 +363,17 @@ PrefabInstance:
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -929.14996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -524.93005
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1805.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
@@ -334,15 +441,81 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
 --- !u!4 &8374001153165689324 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 4745056638482053745}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &4745056639198917314
-PrefabInstance:
+=======
+  m_Radius: 0.25
+--- !u!114 &1907552161359173655
+MonoBehaviour:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7132535458597909808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b15ce3bf08a0848bbec407de0356c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
+  SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
+  FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
+  TaskName: Goodbye Party
+  TaskDescription: Pah! Nobody asked for this, these fools think I want to spend
+    my last day with them? Good riddance!
+  succeeded: 0
+  statUsed: 0
+  difficultyTier: 1
+--- !u!1 &7583216663950677039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6993327049224618826}
+  - component: {fileID: 3018325651445722383}
+  - component: {fileID: 2708373440142865632}
+  m_Layer: 8
+  m_Name: MorningWorkout
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6993327049224618826
+>>>>>>> Stashed changes
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7583216663950677039}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.39, y: 5.99, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4215884229170198442}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &3018325651445722383
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7583216663950677039}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Modification:
     m_TransformParent: {fileID: 4745056637247523745}
     m_Modifications:
@@ -359,17 +532,17 @@ PrefabInstance:
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -930.20996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -524.88
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1805.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
@@ -435,8 +608,102 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
 --- !u!4 &8374001152416319839 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 4745056639198917314}
+=======
+  m_Radius: 0.25
+--- !u!114 &2708373440142865632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7583216663950677039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b15ce3bf08a0848bbec407de0356c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
+  SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
+  FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
+  TaskName: Morning Workout
+  TaskDescription: "It\u2019s not like I need my deposit back.."
+  succeeded: 0
+  statUsed: 0
+  difficultyTier: 0
+--- !u!1 &8792528986887331236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6853911757896380407}
+  - component: {fileID: 8298080738164818955}
+  - component: {fileID: 7754421837181993408}
+  m_Layer: 8
+  m_Name: GoApeShit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6853911757896380407
+>>>>>>> Stashed changes
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8792528986887331236}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.08, y: -1.01, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4215884229170198442}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &8298080738164818955
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8792528986887331236}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
+--- !u!114 &7754421837181993408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8792528986887331236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b15ce3bf08a0848bbec407de0356c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
+  SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
+  FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
+  TaskName: Go Ape Shit
+  TaskDescription: "It\u2019s been a long week hasn\u2019t it? Don\u2019t you feel
+    a bit restless? Don\u2019t you just want to start something? Now\u2019s your
+    chance, seize the day!"
+  succeeded: 0
+  statUsed: 2
+  difficultyTier: 2

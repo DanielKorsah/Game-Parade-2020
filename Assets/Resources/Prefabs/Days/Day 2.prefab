@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3304730410586738763
+--- !u!1 &1486866118261910917
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,35 +8,107 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3304730410586738762}
+  - component: {fileID: 5369644999426645844}
+  - component: {fileID: 8008603173860815555}
+  - component: {fileID: 5845526527981319072}
+  m_Layer: 8
+  m_Name: FireAlarm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5369644999426645844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486866118261910917}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.73, y: 2.36, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2035689959484366977}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &8008603173860815555
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486866118261910917}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
+--- !u!114 &5845526527981319072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486866118261910917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b15ce3bf08a0848bbec407de0356c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
+  SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
+  FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
+  TaskName: Fire Alarm
+  TaskDescription: "Let\u2019s put on a little show and liven things up in here!"
+  succeeded: 0
+  statUsed: 2
+  difficultyTier: 0
+--- !u!1 &3608994804689688188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2035689959484366977}
   m_Layer: 0
   m_Name: Day 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &3304730410586738762
+  m_IsActive: 1
+--- !u!4 &2035689959484366977
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3304730410586738763}
+  m_GameObject: {fileID: 3608994804689688188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1743874636191600512}
-  - {fileID: 1743874634348517742}
-  - {fileID: 1743874635744255601}
-  - {fileID: 1743874635678636359}
+  - {fileID: 5369644999426645844}
+  - {fileID: 735437917120221686}
+  - {fileID: 3999912144236171492}
+  - {fileID: 7359034897077496052}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &3304730410929070835
-PrefabInstance:
+--- !u!1 &5488367147780024251
+GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< Updated upstream
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 3304730410586738762}
@@ -54,17 +126,17 @@ PrefabInstance:
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -934.85
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -524.17
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1805.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
@@ -130,15 +202,53 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
 --- !u!4 &1743874634348517742 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 3304730410929070835}
+=======
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &3304730411299533853
-PrefabInstance:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 735437917120221686}
+  - component: {fileID: 340319228243445339}
+  - component: {fileID: 6435678887256045412}
+  m_Layer: 8
+  m_Name: RoofAccess
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &735437917120221686
+>>>>>>> Stashed changes
+Transform:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5488367147780024251}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.45, y: 7.32, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2035689959484366977}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &340319228243445339
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5488367147780024251}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Modification:
     m_TransformParent: {fileID: 3304730410586738762}
     m_Modifications:
@@ -155,17 +265,17 @@ PrefabInstance:
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -935.74
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -524.17
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1805.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
@@ -230,15 +340,81 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
 --- !u!4 &1743874636191600512 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 3304730411299533853}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &3304730411647264236
-PrefabInstance:
+=======
+  m_Radius: 0.25
+--- !u!114 &6435678887256045412
+MonoBehaviour:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5488367147780024251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b15ce3bf08a0848bbec407de0356c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
+  SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
+  FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
+  TaskName: Roof Access
+  TaskDescription: "It\u2019s a beautiful day and what\u2019s the worst that could
+    happen, I\u2019d fall? Ha!"
+  succeeded: 0
+  statUsed: 0
+  difficultyTier: 1
+--- !u!1 &7485301226175069751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3999912144236171492}
+  - component: {fileID: 8644216678813741514}
+  - component: {fileID: 1532719592220312293}
+  m_Layer: 8
+  m_Name: Rich Neighbors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3999912144236171492
+>>>>>>> Stashed changes
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7485301226175069751}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.93, y: 6.23, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2035689959484366977}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &8644216678813741514
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7485301226175069751}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Modification:
     m_TransformParent: {fileID: 3304730410586738762}
     m_Modifications:
@@ -255,17 +431,17 @@ PrefabInstance:
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -933.96
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -524.17
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1805.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
@@ -331,15 +507,81 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
 --- !u!4 &1743874635744255601 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 3304730411647264236}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &3304730411711832794
-PrefabInstance:
+=======
+  m_Radius: 0.25
+--- !u!114 &1532719592220312293
+MonoBehaviour:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7485301226175069751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b15ce3bf08a0848bbec407de0356c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
+  SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
+  FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
+  TaskName: Rich Neighbors
+  TaskDescription: "That man has had it easy his whole life but still he is stingy
+    as anything. Now where could all that money be hidden\u2026"
+  succeeded: 0
+  statUsed: 1
+  difficultyTier: 1
+--- !u!1 &8523657920214781909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7359034897077496052}
+  - component: {fileID: 7242054999813500804}
+  - component: {fileID: 1847244128088860471}
+  m_Layer: 8
+  m_Name: JudysBigDayOut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7359034897077496052
+>>>>>>> Stashed changes
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8523657920214781909}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.08, y: -11.83, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2035689959484366977}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &7242054999813500804
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8523657920214781909}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Modification:
     m_TransformParent: {fileID: 3304730410586738762}
     m_Modifications:
@@ -356,17 +598,17 @@ PrefabInstance:
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -933.07
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -524.17
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1805.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
@@ -436,4 +678,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
     type: 3}
   m_PrefabInstance: {fileID: 3304730411711832794}
+=======
+  m_Radius: 0.25
+--- !u!114 &1847244128088860471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+>>>>>>> Stashed changes
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8523657920214781909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b15ce3bf08a0848bbec407de0356c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
+  SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
+  FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
+  TaskName: "Judy\u2019s Big Day Out"
+  TaskDescription: I have a long list of people I want to say some last choice words
+    to and time is wasting!
+  succeeded: 0
+  statUsed: 0
+  difficultyTier: 2

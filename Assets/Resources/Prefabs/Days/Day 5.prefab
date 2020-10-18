@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7123499987096980755
+--- !u!1 &1232412078902686151
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,79 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7123499987096980754}
+  - component: {fileID: 8164611860939368985}
+  - component: {fileID: 477745222838659237}
+  - component: {fileID: 4107880198416286173}
+  m_Layer: 8
+  m_Name: MadeWithLove
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8164611860939368985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232412078902686151}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.63, y: -8.7, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6926872668991734828}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &477745222838659237
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232412078902686151}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
+--- !u!114 &4107880198416286173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232412078902686151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b15ce3bf08a0848bbec407de0356c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
+  SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
+  FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
+  TaskName: Made With Love
+  TaskDescription: With how bland everything is normally, who knows? This might even
+    improve the taste!
+  succeeded: 0
+  statUsed: 1
+  difficultyTier: 1
+--- !u!1 &2674728945359467960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6926872668991734828}
   m_Layer: 0
   m_Name: Day 5
   m_TagString: Untagged
@@ -16,27 +88,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7123499987096980754
+--- !u!4 &6926872668991734828
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7123499987096980755}
+  m_GameObject: {fileID: 2674728945359467960}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6283787078255486389}
-  - {fileID: 6283787079539838956}
-  - {fileID: 6283787079896975199}
-  - {fileID: 6283787079055940235}
+  - {fileID: 1501474251793220722}
+  - {fileID: 2662520882306063178}
+  - {fileID: 8164611860939368985}
+  - {fileID: 4528218187421917277}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &7123499987083878678
-PrefabInstance:
+--- !u!1 &3066550155886375914
+GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< Updated upstream
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 7123499987096980754}
@@ -54,17 +127,17 @@ PrefabInstance:
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -928.04
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -523.95
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1805.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
@@ -130,15 +203,53 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
 --- !u!4 &6283787079055940235 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 7123499987083878678}
+=======
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &7123499987885383208
-PrefabInstance:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4528218187421917277}
+  - component: {fileID: 8104035077652788464}
+  - component: {fileID: 6281734453199330116}
+  m_Layer: 8
+  m_Name: LeaveMeAlone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4528218187421917277
+>>>>>>> Stashed changes
+Transform:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3066550155886375914}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.91, y: 0.98, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6926872668991734828}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &8104035077652788464
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3066550155886375914}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Modification:
     m_TransformParent: {fileID: 7123499987096980754}
     m_Modifications:
@@ -155,17 +266,17 @@ PrefabInstance:
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -931.01996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -523.95
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1805.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
@@ -233,15 +344,81 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
 --- !u!4 &6283787078255486389 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 7123499987885383208}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &7123499988323220674
-PrefabInstance:
+=======
+  m_Radius: 0.25
+--- !u!114 &6281734453199330116
+MonoBehaviour:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3066550155886375914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b15ce3bf08a0848bbec407de0356c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
+  SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
+  FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
+  TaskName: Leave Me Alone!
+  TaskDescription: "Even here I have to look at kids? Little brats, always where
+    you don\u2019t want them\u2026"
+  succeeded: 0
+  statUsed: 2
+  difficultyTier: 2
+--- !u!1 &4444197595178936170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2662520882306063178}
+  - component: {fileID: 2174737636974476931}
+  - component: {fileID: 8512521742803626793}
+  m_Layer: 8
+  m_Name: Feedback
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2662520882306063178
+>>>>>>> Stashed changes
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4444197595178936170}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.61, y: 6.46, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6926872668991734828}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &2174737636974476931
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4444197595178936170}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Modification:
     m_TransformParent: {fileID: 7123499987096980754}
     m_Modifications:
@@ -258,17 +435,17 @@ PrefabInstance:
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -929.14996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -523.99005
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1805.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
@@ -334,15 +511,81 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a348fcbae293b4fb1978f7c65760e6, type: 3}
 --- !u!4 &6283787079896975199 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 7123499988323220674}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &7123499988647851121
-PrefabInstance:
+=======
+  m_Radius: 0.25
+--- !u!114 &8512521742803626793
+MonoBehaviour:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4444197595178936170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b15ce3bf08a0848bbec407de0356c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
+  SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
+  FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
+  TaskName: Feedback
+  TaskDescription: Dear Maggie, your snoring can be heard from across the building
+    and we all hate you! Have a good day!
+  succeeded: 0
+  statUsed: 1
+  difficultyTier: 0
+--- !u!1 &6236614608381095533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1501474251793220722}
+  - component: {fileID: 5189580382430018295}
+  - component: {fileID: 1915229253620179375}
+  m_Layer: 8
+  m_Name: GreenLawns
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1501474251793220722
+>>>>>>> Stashed changes
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6236614608381095533}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.78, y: -8.95, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6926872668991734828}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &5189580382430018295
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6236614608381095533}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Modification:
     m_TransformParent: {fileID: 7123499987096980754}
     m_Modifications:
@@ -359,17 +602,17 @@ PrefabInstance:
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -930.20996
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -523.94
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1805.625
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
         type: 3}
@@ -439,4 +682,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3886534397007231901, guid: 60a348fcbae293b4fb1978f7c65760e6,
     type: 3}
   m_PrefabInstance: {fileID: 7123499988647851121}
+=======
+  m_Radius: 0.25
+--- !u!114 &1915229253620179375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+>>>>>>> Stashed changes
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6236614608381095533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b15ce3bf08a0848bbec407de0356c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconSprite: {fileID: 21300000, guid: fb43da01f7042c443913f1a5a48a5c6b, type: 3}
+  SucceededSprite: {fileID: 21300000, guid: cd01cf4d97eb30a42ac01b559e1096b0, type: 3}
+  FailedSprite: {fileID: 21300000, guid: 19e1065466fd8764b94b8cac0fdcd6c2, type: 3}
+  TaskConfirmation:
+    m_PersistentCalls:
+      m_Calls: []
+  TaskName: Green Lawns
+  TaskDescription: 'Would it really have been that bad for me to keep a garden here?
+    No! Well enjoy this view.
+
+'
+  succeeded: 0
+  statUsed: 0
+  difficultyTier: 0
