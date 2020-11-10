@@ -6,7 +6,7 @@ using TMPro;
 
 
 public class RandomWheelPointer : MonoBehaviour
-  {
+{
     public List<string> Names = new List<string>();
     public List<string> Descriptions = new List<string>();
 
@@ -15,14 +15,16 @@ public class RandomWheelPointer : MonoBehaviour
     [SerializeField] private TMP_Text NameText;
     [SerializeField] private TMP_Text DescriptionText;
 
-    private float stopTime;
+    private float stopTime = 2.5f;
     private float countdown;
     private bool stopped = true;
     private float rotationSpeed = 360;
+    private float spinRotation;
     void Start()
-   
-    { 
-        stopTime = Random.Range(3.0f, 5.0f);
+
+    {
+        //stopTime = Random.Range(3.0f, 5.0f);
+        spinRotation = Random.Range(720.0f, 1800f);
     }
 
     // Update is called once per frame
@@ -32,8 +34,8 @@ public class RandomWheelPointer : MonoBehaviour
         if (!stopped)
         {
             countdown -= Time.deltaTime;
-            if (countdown > 0)
-                transform.Rotate(0, 0, -rotationSpeed * Time.deltaTime);
+            if (countdown > 0) { }
+            //transform.Rotate(0, 0, -rotationSpeed * Time.deltaTime);
             else
                 FinishSpin();
         }
@@ -44,6 +46,9 @@ public class RandomWheelPointer : MonoBehaviour
         transform.rotation = Quaternion.identity;
         stopped = false;
         countdown = stopTime;
+
+        LeanTween.rotate(gameObject.GetComponent<RectTransform>(), -spinRotation, countdown);
+        //timeText.text = CharacterInfo.Time == 0 ? "Time Left: 2" : "Time Left: 1";
 
     }
 
