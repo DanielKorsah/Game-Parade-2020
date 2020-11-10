@@ -484,6 +484,7 @@ GameObject:
   - component: {fileID: 4218127693958047182}
   - component: {fileID: 3854695514628243346}
   - component: {fileID: 7490049939740591272}
+  - component: {fileID: 1587831225576763359}
   m_Layer: 5
   m_Name: TaskConfirmPanel
   m_TagString: Untagged
@@ -537,7 +538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.36078432, g: 0.47843137, b: 0.58431375, a: 1}
+  m_Color: {r: 1, g: 0.7209119, b: 0.3301887, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -578,6 +579,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33ea1e6892815254cbc799cee0cced54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1587831225576763359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822502756440653626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 728fc317bee120e44918952e36074ee9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3597993607163142209
@@ -850,6 +863,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3854695514628243346}
         m_MethodName: Cancel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: PlayButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

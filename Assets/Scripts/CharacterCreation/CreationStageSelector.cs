@@ -110,6 +110,7 @@ public class CreationStageSelector : MonoBehaviour
         if (progress > 4)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SoundManager.GameSceneStartEvent.Invoke();
         }
     }
 
