@@ -1541,7 +1541,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1643044284}
+      objectReference: {fileID: 0}
     - target: {fileID: 2725561812652930295, guid: 45b500d1927b9ee47b3d8396abefd19b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1589,7 +1589,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1643044285}
-  - component: {fileID: 1643044284}
   m_Layer: 5
   m_Name: Option Accept
   m_TagString: Untagged
@@ -1597,29 +1596,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1643044284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643044283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: event:/SFX/UI/Menu Confirm
-  PlayEvent: 0
-  StopEvent: 0
-  CollisionTag: 
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!224 &1643044285
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2758,6 +2734,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1661747367, guid: 84d7556a3d0337245a0e2fb74af2f129, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1661747368, guid: 84d7556a3d0337245a0e2fb74af2f129, type: 3}
       propertyPath: orthographic size
       value: 8
@@ -2822,7 +2802,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1661747371, guid: 84d7556a3d0337245a0e2fb74af2f129, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 84d7556a3d0337245a0e2fb74af2f129, type: 3}
 --- !u!1001 &6843267729949199026
 PrefabInstance:
